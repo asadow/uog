@@ -1,14 +1,25 @@
 ---
 title: Title
 format:
-  uog-html: default
+  uog-html: 
+    embed-resources: true
 author: Adam Sadowski
 date: last-modified
 ---
 
-## Introduction
+## Header
 
 ::: callout-note
+The logo does not show on purpose. `title-block.html` contains `asadow/` in the
+line below even though there is no `asadow/` directory in this project. 
+When a user runs `quarto add asadow/uog` in their project, 
+the `_extensions/asadow/uog/` directory is created; the logo then works for the 
+user.
+
+```
+<img src="_extensions/asadow/uog/pr-logo.jpg" width="300px">
+```
+
 :::
 
 ::: callout-caution
