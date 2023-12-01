@@ -1,0 +1,18 @@
+---
+title: Title
+format:
+  uog-html: default
+author: Adam Sadowski
+date: last-modified
+---
+
+## Introduction
+
+::: callout-note
+:::
+
+::: callout-caution
+:::
+
+::: callout-tip
+:::
